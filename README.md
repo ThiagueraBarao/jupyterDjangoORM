@@ -1,4 +1,4 @@
-# Django Data Navigation With Notebook
+# Django ORM Models Data Navigation With Jupyter Notebook and Pandas
 
 # Installation
 
@@ -6,6 +6,7 @@
 ```
 $ pip install django-extensions
 $ pip install ipython
+$ pip install https://github.com/ThiagueraBarao/jupyterDjangoORM/archive/main.zip
 ```
 ## Django ``Settings.py``
 
@@ -64,9 +65,9 @@ django-extensions==3.0.9
 $ python <YourDjangoDirectory>\manage.py shell_plus --notebook
 ```
 
-## Example Use Notebook
+## Example Notebook Use
 ```
-...jupyterDjangoORM/Notebooks/Test.ipynb
+...jupyterDjangoORM/Notebooks/Example.ipynb
 ```
 ## Django ORM Queries Documentation
 https://docs.djangoproject.com/en/3.1/topics/db/queries/#retrieving-objects

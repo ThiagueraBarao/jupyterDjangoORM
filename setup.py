@@ -22,5 +22,6 @@ setup(
   classifiers=classifiers,
   keywords='django jupyter pandas ORM', 
   packages=['jupyterDjangoORM'],
-  install_requires=requirements 
+  install_requires=requirements ,
+  zip_safe=False
 )
