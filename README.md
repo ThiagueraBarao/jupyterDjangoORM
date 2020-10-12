@@ -1,4 +1,4 @@
-# Django Data Navegation With Notebook
+# Django Data Navigation With Notebook
 
 # Installation
 
@@ -61,10 +61,10 @@ django-extensions==3.0.9
 
 ## Start Shell
 ```
-$ python3 manage.py shell_plus --ipython
+$ python <YourDjangoDirectory>\manage.py shell_plus --notebook
 ```
 
 ## Open Notebook
 ```
-...Notebook/Test.ipynb
+...jupyterDjangoORM/Notebooks/Test.ipynb
 ```
