@@ -20,5 +20,5 @@ setup(
   classifiers=classifiers,
   keywords='django jupyter pandas ORM', 
   packages=find_packages(),
-  install_requires=['pandas','json','django','django-extensions'] 
+  install_requires=['pandas','django','django-extensions'] 
 )
