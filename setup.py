@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 requirements = ["Django>=3.0.3", "django-extensions>=3.0.9", "pandas>=0.23.4"]
 
@@ -21,6 +21,6 @@ setup(
   license='MIT', 
   classifiers=classifiers,
   keywords='django jupyter pandas ORM', 
-  packages=find_packages(),
+  packages=['jupyterDjangoORM'],
   install_requires=requirements 
 )
