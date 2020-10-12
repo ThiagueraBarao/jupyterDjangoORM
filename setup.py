@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
- 
+
+requirements = ["Django>=3.0.3", "django-extensions>=3.0.9", "pandas~0.23.4"]
+
 classifiers = [
   'Development Status :: 5 - Production/Stable',
   'Intended Audience :: Education',
@@ -20,5 +22,5 @@ setup(
   classifiers=classifiers,
   keywords='django jupyter pandas ORM', 
   packages=find_packages(),
-  install_requires=['pandas','django','django-extensions'] 
+  install_requires=requirements 
 )
