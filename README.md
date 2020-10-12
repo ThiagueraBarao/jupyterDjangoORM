@@ -64,7 +64,9 @@ django-extensions==3.0.9
 $ python <YourDjangoDirectory>\manage.py shell_plus --notebook
 ```
 
-## Open Notebook
+## Example Use Notebook
 ```
 ...jupyterDjangoORM/Notebooks/Test.ipynb
 ```
+## Django ORM Queries Documentation
+https://docs.djangoproject.com/en/3.1/topics/db/queries/#retrieving-objects
